@@ -1,9 +1,10 @@
 ---
 title: Moving from Publishing sites to Communication sites
+ms.reviewer: 
 ms.author: loreenl
 author: loreenla
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority
@@ -93,7 +94,7 @@ If you want more customized branding and theming applied to each new site, you c
 
 ## Pages
 
-Master pages and page layouts are components of a publishing site. Page layouts and master pages work together to create the layout for a traditional SharePoint webpage. Modern Communication sites do not utilize master pages or page layouts, but do provide a greater level of flexibility for site owners and page authors.
+Master pages and page layouts are components of a publishing site. Page layouts and master pages work together to create the layout for a traditional SharePoint web page. Modern Communication sites do not utilize master pages or page layouts, but do provide a greater level of flexibility for site owners and page authors.
 
 In the classic experience, you may have created web part pages based on page layouts. Page layouts can be locked down to control what is authored on a page. However, they are inflexible in that pages based on page layouts are confined to the layout and options provided by the page layout.
 
@@ -110,11 +111,7 @@ Modern pages provide a fast, easy way to build responsive pages using the functi
 Pages are made up of a title area and sections. Sections can include a full-width column for full-bleed images or hero web parts, or up to three regular columns. You can add a variety of web parts to the page, and easily move them around on the page to get the look you want. Check out this short video to see how to create, layout, and publish a page:
 
 
-> [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=RWlZJM&AutoPlayVideo=false]
-
-Currently there are three basic out-of-box page templates available when you create a page within a Communication site, and additional new page designs are expected. Also coming is the ability to create your own page designs, while for now, you can create pages based on copies of your previously added and designed pages.
-
-![Page templates](media/publishing-sites-classic-to-modern-experience_image7.png)
+> [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=RE2ZpSP&AutoPlayVideo=false]
 
 **Publishing** On a classic publishing site, commands for Publish and Check in/Check out are available on the ribbon. In the modern experience, it is even easier for authors to discover how to edit and make their content visible with buttons to Edit, Save, and Publish right on the page. When a modern page is in edit mode, it is automatically checked out to the person who is editing. When a page is saved or published, it is automatically checked in. If someone has a page open for editing but hasn’t made any changes to it for at least 5 minutes, it is automatically saved and taken out of Edit mode so that others can access and edit the page.
 
@@ -146,7 +143,7 @@ Important: Classic web parts cannot be used on modern pages and modern out-of-th
 
 To learn about all of the modern web parts, see [Using web parts on SharePoint Online pages](https://support.office.com/article/336e8e92-3e2d-4298-ae01-d404bbe751e0). To learn about modern web parts that have similar purposes to classic web parts, see [Classic and modern web part experiences](https://support.office.com/article/3fdae6c3-8fc1-49ab-8708-8c104b882e64).
 
-For developers, the [SharePoint Framework](/sharepoint/dev/spfx/sharepoint-framework-overview) allows for the building of custom modern web parts that appear alongside out-of-the-box web parts in the web part toolbox. The SharePoint Framework also allows for custom extensions, the [use of the Microsoft Graph API](/sharepoint/dev/spfx/use-aad-tutorial), as well as [secure access to third party solutions and API’s secured by Azure Active Directory](/sharepoint/dev/spfx/use-aadhttpclient). Developers are encouraged to consult the [SharePoint starter kit](https://github.com/SharePoint/sp-starter-kit), where you'll find a fully built sample solution that includes numerous web parts, extensions, and other components that you can use as an example and inspiration for your own customizations. Additionally, you can find design guidance and standards for web parts and at [Designing great SharePoint experiences](/sharepoint/dev/design/design-guidance-overview).
+For developers, the [SharePoint Framework](/sharepoint/dev/spfx/sharepoint-framework-overview) allows for the building of custom modern web parts that appear alongside out-of-the-box web parts in the web part toolbox. The SharePoint Framework also allows for custom extensions, the [use of the Microsoft Graph API](/sharepoint/dev/spfx/use-aad-tutorial), as well as [secure access to third party solutions and API’s secured by Azure Active Directory](/sharepoint/dev/spfx/use-aadhttpclient). Developers are encouraged to consult the [SharePoint starter kit](https://github.com/SharePoint/sp-starter-kit), where you'll find a fully built sample solution that includes numerous web parts, extensions, and other components that you can use as an example and inspiration for your own customizations. Additionally, you can find design guidance and standards for web parts at [Designing great SharePoint experiences](/sharepoint/dev/design/design-guidance-overview).
 
 ### Web parts unique to publishing sites
 
@@ -178,13 +175,13 @@ To learn more about modern web parts that have similar purposes to classic web p
 
 Newly available in the modern experience, the News feature is an effective distribution system created to deliver relevant content across your organization.
 
-Built on modern pages and web parts, you can tell stories with rich, attractive content that can be dynamically shown on the SharePoint Home page, on team sites, communication sites, hub sites, and even on the SharePoint mobile app. You can also choose to show News in a Teams channel.
+Built on modern pages and web parts, you can tell stories with rich, attractive content that can be dynamically shown on the SharePoint start page, on team sites, communication sites, hub sites, and even on the SharePoint mobile app. You can also choose to show News in a Teams channel.
 
 ### Where news can be distributed
 
 ![Places where news is shown](media/publishing-sites-classic-to-modern-experience_image9.png)
 
-News posts can be created from the SharePoint home page, from a team site or communication site, and from pages that have the News web part on them already. You can customize sources and layouts of news, and soon you’ll be able to organize and order news posts as well as target specific audiences for news.
+News posts can be created from the SharePoint start page, from a team site or communication site, and from pages that have the News web part on them already. You can customize sources and layouts of news, and soon you’ll be able to organize and order news posts as well as target specific audiences for news.
 To learn more about how to create and share News, see [Create and share news on your SharePoint sites](https://support.office.com/article/create-and-share-news-on-your-sharepoint-sites-495f8f1a-3bef-4045-b33a-55e5abe7aed7).
 
 ## Users and permissions
@@ -197,4 +194,4 @@ You can also share a communication site externally if needed, but at the moment 
 
 ## Audience targeting
 
-In the classic experience, many types of content can be targeted to appear only to people who are members of a particular group or audience. This capability is coming soon to the modern experience also. Audience targeting support will be enabled in modern Pages and the News, Events, and Highlighted content web parts. For example, if you have two departments within your organization that have different policies, you can choose to show a News post about a policy to just the people in the department that the policy applies to. Check the [Office 365 Roadmap](https://products.office.com/en-US/business/office-365-roadmap) for this and other features that are in development, rolling out, or launched.
+In the classic experience, many types of content can be targeted to appear only to people who are members of a particular group or audience. This capability is available in the modern experience with modern Pages, the News web part, and the Highlighted content web parts. For example, if you have two departments within your organization that have different policies, you can choose to show a News post about a policy to just the people in the department that the policy applies to. To learn how to enable audience targeting, see [Target content to specific audiences](https://support.office.com/en-us/article/Target-content-to-specific-audiences-33D84CB6-14ED-4E53-A426-74C38EA32293).

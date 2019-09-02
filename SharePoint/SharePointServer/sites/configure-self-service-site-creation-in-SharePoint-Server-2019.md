@@ -1,10 +1,10 @@
 ---
 title: "Configure self-service site creation in SharePoint Server 2019 home page"
-ms.author: stevhord
-author: bentoncity
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 7/19/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

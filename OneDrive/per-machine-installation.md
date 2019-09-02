@@ -1,9 +1,10 @@
 ---
 title: "Install the sync client per machine"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: one-drive
 localization_priority: Normal
@@ -33,7 +34,9 @@ The per-machine sync client supports syncing OneDrive and SharePoint files in Mi
 ## Requirements
 
 - All Windows versions supported by the sync client. [Learn more](https://support.office.com/article/onedrive-system-requirements-cc0cb2b8-f446-445c-9b52-d3c2627d681e)
-- Sync client build [19.043.0304.0003](https://go.microsoft.com/fwlink/?linkid=2083517) or later. For info about which sync client build is available in each ring, see [New OneDrive sync client release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0).
+- Sync client build 19.043.0304.0006 or later. For info about which sync client build is available in each ring, see [New OneDrive sync client release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0).
+- To apply sync client updates, computers in your organization must be able to reach the following: "oneclient.sfx.ms" and "g.live.com." Make sure you don't block these URLs. They are also used to enable and disable features and apply bug fixes. [More info about the URLs and IP address ranges used in Office 365](/office365/enterprise/urls-and-ip-address-ranges).
+
   
 ## Deployment instructions
 
@@ -66,8 +69,33 @@ The sync client is an extension of the service and a very thin client so auto-up
 User intervention is not required for the per-machine sync client to update itself. Elevation is required when you first set it up. During setup, we install a scheduled task and a Windows service, which are used to perform the updates silently without user intervention since they run in elevated mode.
 
 **How do I revert back to the per-user sync client if required?** 
-We do not support automated migration from per-machine to per-user. To revert back after installing per-machine, please uninstall the sync client and [install the latest released version](https://go.microsoft.com/fwlink/?linkid=844652) without the “/allusers” parameter.  
- 
+We do not support automated migration from per-machine to per-user. To revert back after installing per-machine, please uninstall the sync client and [install the latest released version](https://go.microsoft.com/fwlink/?linkid=844652) without the “/allusers” parameter.
+
+**How can I detect the installation through SCCM?** 
+
+For SCCM, to detect the install we used the following two registry detection rules with an OR() connector:
+
+|Field|Value|
+|---|---|
+|Hive|   HKEY_LOCAL_MACHINE|
+|Key|    SOFTWARE\Wow6432Node\Microsoft\OneDrive|
+|Value|  Version|
+|32bit on 64bit| TRUE|
+|Type|   Version|
+|Value|  19.043.0304.0007|
+
+
+|Field|Value|
+|---|---|
+|Hive|   HKEY_LOCAL_MACHINE|
+|Key|    SOFTWARE\Microsoft\OneDrive|
+|Value|  Version|
+|32bit on 64bit| FALSE|
+|Type|   Version|
+|Value|  19.043.0304.0007|
+
+This allows the per-machine version to be detected independent of the underlying client architecture.
+
 
   
 

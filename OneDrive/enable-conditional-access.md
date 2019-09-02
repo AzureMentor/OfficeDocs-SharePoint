@@ -1,9 +1,10 @@
 ---
 title: "Enable conditional access support in the OneDrive sync client for Windows"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: get-started-article
 ms.service: one-drive
 localization_priority: Normal
@@ -64,11 +65,11 @@ Please let us know if you run into any problems while using this release.
   
  **To report a problem**
   
-1. Right-click the white or blue OneDrive cloud icon in the Windows taskbar notification area.
+1. Right-click the blue OneDrive cloud icon in the Windows taskbar notification area.
     
-2. Click **Report a problem**.
+2. Click **Get help**.
     
-3. Type a brief description of your issue, and then click **OK**. You will receive an email notification with a support ticket number to track your issue.
+3. Type a brief description of your issue, and then click **Submit**. 
     
 ## See also
 

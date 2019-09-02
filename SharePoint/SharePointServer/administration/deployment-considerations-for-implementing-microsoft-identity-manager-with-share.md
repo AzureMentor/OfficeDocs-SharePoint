@@ -1,9 +1,10 @@
 ---
 title: "Deployment considerations for implementing Microsoft Identity Manager with SharePoint Servers 2016 and 2019"
-ms.author: kirks
-author: Techwriter40
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

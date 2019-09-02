@@ -1,10 +1,11 @@
 ---
 title: "Migration Assessment Scan Publishing Pages"
+ms.reviewer: 
 ms.author: jhendr
 author: JoanneHendrickson
 manager: pamgreen
 ms.date: 9/12/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority
@@ -63,4 +64,3 @@ The following table describes the columns in the **PublishingPages-detail.csv** 
 |PageLayoutURL  <br/> |Url to the page layout associated with the publishing page.  <br/> |
 |ScanID  <br/> |Unique identifier assigned to a specific execution of the SharePoint Migration Assessment Tool.  <br/> |
    
-

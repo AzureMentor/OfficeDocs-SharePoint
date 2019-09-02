@@ -1,10 +1,11 @@
 ---
 title: "Configure outgoing email for a SharePoint Server farm"
-ms.author: stevhord
-author: bentoncity
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 3/12/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - WSSCentralAdmin_ConfigEmail

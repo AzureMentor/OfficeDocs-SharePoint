@@ -1,10 +1,11 @@
 ---
 title: "Prepare to deploy software updates for SharePoint 2013"
-ms.author: kirks
-author: Techwriter40
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 9/27/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -179,7 +180,7 @@ SharePoint farm deployments require that all servers have the same patch level w
 * Extract each package to the target location. This can be done via the Command Prompt/PowerShell using the following example.
 
 ```
-PS C:\>ubersrv2013-kb4092476-fullfile-x64-glb.exe /extract:C\SharePointInstall\Updates
+ubersrv2013-kb4092476-fullfile-x64-glb.exe /extract:C\SharePointInstall\Updates
 ```
 
 With the extraction complete, run the Setup from the installation location, `C:\SharePointInstall\setup.exe`. Setup will automatically apply the update during the installation process of SharePoint.

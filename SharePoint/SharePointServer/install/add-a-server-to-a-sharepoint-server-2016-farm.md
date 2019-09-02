@@ -1,10 +1,11 @@
 ---
 title: "Add a server to a SharePoint Server 2016 or SharePoint Server 2019 farm"
-ms.author: kirks
-author: Techwriter40
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 6/1/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal
@@ -189,7 +190,7 @@ Verify that you have the following memberships:
   Connect-SPConfigurationDatabase -DatabaseServer <SqlServerName> -DatabaseName <ConfigDbName> -Passphrase <FarmPassphrase>  -LocalServerRole <ServerRole>
   ```
 
-    Where:
+  Where:
     
   -  _\<$DatabaseServer\>_ is the name of the server that hosts the configuration database 
     

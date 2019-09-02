@@ -1,9 +1,10 @@
 ---
 title: "Redirect and move Windows known folders to OneDrive"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: get-started-article
 ms.service: one-drive
 localization_priority: Normal
@@ -77,7 +78,7 @@ To use the following Group Policy objects, you need the OneDrive sync build 18.1
     Use this setting to force users to keep their known folders directed to OneDrive.
     
     > [!NOTE]
-    > Users can direct their known folders by opening OneDrive sync client settings, clicking the **AutoSave** tab, and then clicking **Update folders**. 
+    > Users can direct their known folders by opening OneDrive sync client settings, clicking the **Backup** tab, and then clicking **Manage backup**. 
   
 - [Prevent users from moving their Windows known folders to OneDrive](use-group-policy.md#BlockKnownFolderMove)
     

@@ -1,10 +1,11 @@
 ---
 title: "Federal Information Processing Standard security standards and SharePoint Server"
-ms.author: stevhord
-author: bentoncity
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 3/5/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: reference
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

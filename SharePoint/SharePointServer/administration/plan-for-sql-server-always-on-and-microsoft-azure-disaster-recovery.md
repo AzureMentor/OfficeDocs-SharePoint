@@ -1,10 +1,11 @@
 ---
 title: "Plan for SQL Server Always On and Microsoft Azure for SharePoint Server Disaster Recovery"
-ms.author: stevhord
-author: bentoncity
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
 ms.date: 3/10/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: concetpual
 ms.prod: sharepoint-server-itpro
 localization_priority: Priority

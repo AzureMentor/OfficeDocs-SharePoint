@@ -1,9 +1,10 @@
 ---
 title: "Updated Product Servicing Policy for SharePoint 2019"
-ms.author: kirks
-author: Techwriter40
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: reference
 ms.prod: sharepoint-server-itpro
 localization_priority: Normal

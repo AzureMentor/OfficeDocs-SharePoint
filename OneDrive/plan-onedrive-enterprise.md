@@ -1,9 +1,10 @@
 ---
 title: OneDrive guide for enterprises
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: one-drive
 ms.collection: 
@@ -202,7 +203,7 @@ For Windows 10 client devices that are joined to a domain, you have the addition
 
 ### Align technologies
 
-When you've identified the devices that require access to OneDrive, you then identify the technology options available to you or that align with your organization’s size. If you’re considering implementing a new deployment and management solution, the table in [How organizations deploy and manage OneDrive](#how-organizations-deploy-and-manage-onedrive) lists the technologies that make the most sense based on organization size. Using this information, you can align the technologies you need or already have with the deployment and management capabilities that fit the devices you need to manage.
+When you've identified the devices that require access to OneDrive, you then identify the technology options available to you or that align with your organization’s size. If you’re considering implementing a new deployment and management solution, the table in [How organizations deploy and manage OneDrive](#deployment-and-management-options) lists the technologies that make the most sense based on organization size. Using this information, you can align the technologies you need or already have with the deployment and management capabilities that fit the devices you need to manage.
 
 ### Deploy, secure, and manage OneDrive
 
@@ -544,7 +545,7 @@ Unlike Windows, OneDrive doesn’t have a configuration service provider. Theref
 New-ItemProperty -Path \$Path -Name \$Name -Value \$Value -PropertyType DWORD -Force | Out-Null
 ```
 
-where \$Path is the full path to the subkey to which you want to add a value to (for example, **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\OneDrive**), \$Name is the name of the value you’re adding (for example, **AutomaticUploadBandwidthPercentage**), \$Value is the data within the new value (for example, **32**), and the value following the PropertyType switch is the type of value you’re adding.
+where \$Path is the full path to the subkey to which you want to add a value to (for example, **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\OneDrive**), \$Name is the name of the value you’re adding (for example, **AutomaticUploadBandwidthPercentage**), \$Value is the data within the new value (for example, **32**), and the value following the PropertyType switch is the type of value you’re adding. 
 
 Save the PowerShell script as a .ps1 file. Then, see [Manage PowerShell scripts in Intune for Windows 10 devices](/intune/intune-management-extension/) for instructions on how to deploy the PowerShell script in your environment.
 

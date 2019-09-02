@@ -1,9 +1,10 @@
 ---
 title: "Manage sites in the new SharePoint admin center"
+ms.reviewer: 
 ms.author: kaarins
 author: kaarins
 manager: pamgreen
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: sharepoint-online
 ms.collection:  
@@ -94,7 +95,7 @@ Site insights in the details pane:
     
 - The number of files
     
-- The amount of storage used
+- The amount of storage used (this value doesn't include changes made within the last 24-48 hours)
     
 > [!NOTE]
 > All these insights are available as columns in the site list. For info about adding a column that doesn't appear, see [Customize columns](manage-sites-in-new-admin-center.md#customizecolumns). 

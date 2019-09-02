@@ -1,10 +1,11 @@
 ---
 title: "Search limits for SharePoint Online"
-ms.author: tlarsen
-author: tklarsen
-manager: arnek
+ms.reviewer: 
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 ms.date: 9/1/2017
-ms.audience: End User
+audience: End User
 ms.topic: reference
 ms.service: sharepoint-online
 localization_priority: Normal
